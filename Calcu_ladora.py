@@ -14,6 +14,9 @@ def division(a, b):
 def multiplicacion(a,b):
     return a * b
 
+def potencia(a,b):
+	return pow(a,b)
+
 if __name__ == "__main__":
     print("Suma de 5 y 3:", suma(5, 3))
     print("Resta de 5 y 3:", resta(5, 3))
@@ -22,3 +25,4 @@ if __name__ == "__main__":
 	print("Division de 5 y 0:", division(5,0))
     except ValueError as e:
 	print(e)
+    print("Potenciación: ", potencia(2,2)
