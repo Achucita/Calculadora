@@ -16,4 +16,9 @@ def multiplicacion(a,b):
 
 if __name__ == "__main__":
     print("Suma de 5 y 3:", suma(5, 3))
+    print("Resta de 5 y 3:", resta(5, 3))
     print("Multiplicación de 3 y 6:", multiplicacion(3, 6))
+    try:
+	print("Division de 5 y 0:", division(5,0))
+    except ValueError as e:
+	print(e)
